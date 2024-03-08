@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  /* We use 62.5% that is equal 10px in a responsive way = easier to use rem */
+}
+
+body {
+  font-weight: 400;
+  font-family: sans-serif;
+  background-color: hsl(30, 54%, 90%);
+}
+
+.main {
+  background-color: white;
+  margin-top: 1.6rem;
+}
+
+.img-ommelete {
+  width: 90%;
+  height: 80%;
+}
