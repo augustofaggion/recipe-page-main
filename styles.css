@@ -17,10 +17,19 @@ body {
 
 .main {
   background-color: white;
-  margin-top: 1.6rem;
+  margin: 5.4rem auto;
+  width: 50%;
 }
 
+.img {
+  display: flex;
+  justify-content: center;
+}
 .img-ommelete {
   width: 90%;
-  height: 80%;
+  margin: 1.6rem 0;
+}
+
+.container-text {
+  margin: 0 3.6rem;
 }
