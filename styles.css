@@ -1,35 +1,13 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+:root {
+  /* Primary */
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
 
-html {
-  font-size: 62.5%;
-  /* We use 62.5% that is equal 10px in a responsive way = easier to use rem */
-}
-
-body {
-  font-weight: 400;
-  font-family: sans-serif;
-  background-color: hsl(30, 54%, 90%);
-}
-
-.main {
-  background-color: white;
-  margin: 5.4rem auto;
-  width: 50%;
-}
-
-.img {
-  display: flex;
-  justify-content: center;
-}
-.img-ommelete {
-  width: 90%;
-  margin: 1.6rem 0;
-}
-
-.container-text {
-  margin: 0 3.6rem;
+  /* Secondary */
+  --white: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
 }
