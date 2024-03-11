@@ -94,19 +94,30 @@ li {
   width: 100%;
   color: var(--light-grey);
 }
-.table {
-  display: flex;
-  justify-content: space-around;
-}
 
 .table-text {
   color: gray;
   font-size: 14px;
-  margin-right: 50px;
+  padding-right: 15px;
+  padding-bottom: 10px;
 }
 
 .table-numbers {
   color: var(--nutmeg);
   font-weight: bold;
   font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.container-nutrition {
+  margin-bottom: 30px;
+}
+
+table tr {
+  border-bottom: 1px solid var(--light-grey);
 }
